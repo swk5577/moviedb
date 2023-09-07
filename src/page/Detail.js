@@ -96,6 +96,7 @@ function Detail() {
 
       <div className='con2'>
         <div>
+          <div>
           {
             sim_grp.map((v) => (
               <figure onClick={() => {nave(`/movie/${v.id}`)}} key={v.id}>
@@ -106,6 +107,7 @@ function Detail() {
               </figure>
             ))
           }
+          </div>
         </div>
       </div>
     </div >

@@ -64,6 +64,7 @@ nav {
 }
 
 .con1 {
+  overflow: hidden;
   width: 100%;
   display: flex;
 
@@ -188,6 +189,10 @@ nav {
       >p {
         border-radius: 15px;
         overflow: hidden;
+      }
+      h2{
+        font-size: 1rem;
+        word-break: break-all;
       }
 
       &:hover h2 {

@@ -29,7 +29,7 @@ export let db = {
 
 
   },
-  db_Movie: async function (str, n = 1) {
+  db_Movie: async function () {
     //영화
     return await themoviedb.get(str, { params: { page: n } });
   },
